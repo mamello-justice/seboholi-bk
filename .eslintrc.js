@@ -1,65 +1,65 @@
 module.exports = {
   root: true,
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
 
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
 
   extends: [
-    "standard",
-    "standard-react",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:prettier/recommended",
+    'standard',
+    'standard-react',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:prettier/recommended'
   ],
 
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module'
   },
 
   plugins: [
-    "babel",
-    "import",
-    "jest",
-    "jsx-a11y",
-    "react",
-    "react-hooks",
-    "@typescript-eslint",
-    "prettier",
+    'babel',
+    'import',
+    'jest',
+    'jsx-a11y',
+    'react',
+    'react-hooks',
+    '@typescript-eslint',
+    'prettier'
   ],
 
   rules: {
-    indent: "off",
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
-    "prettier/prettier": "error",
-    "arrow-body-style": "off",
-    "prefer-arrow-callback": "off",
+    indent: 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
+    'prettier/prettier': 'error',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off'
   },
 
   settings: {
-    "import/resolver": {
+    'import/resolver': {
       node: {
-        paths: ["src"],
-      },
-    },
+        paths: ['src']
+      }
+    }
   },
 
   overrides: [
     {
-      files: ["**/*.tsx"],
+      files: ['**/*.tsx'],
 
       rules: {
-        "react/prop-types": "off",
-      },
-    },
-  ],
-};
+        'react/prop-types': 'off'
+      }
+    }
+  ]
+}
