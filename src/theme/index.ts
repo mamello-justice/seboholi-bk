@@ -25,9 +25,13 @@ const themes: Record<Themes, DefaultTheme> = {
     id: 'T_001',
     name: 'Light Theme',
     colors: {
+      ...colors,
       ...commonColors,
       content: {
         bg: colors.solitude
+      },
+      card: {
+        bg: colors.white
       },
       side: {
         bg: colors.solitude
@@ -39,9 +43,13 @@ const themes: Record<Themes, DefaultTheme> = {
     id: 'T_002',
     name: 'Dark Theme',
     colors: {
+      ...colors,
       ...commonColors,
       content: {
         bg: colors.darkGrey
+      },
+      card: {
+        bg: colors.blackRussian
       },
       side: {
         bg: colors.darkGrey
