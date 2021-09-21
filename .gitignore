@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,dotenv,node,git,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,dotenv,node,git,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/react,dotenv,node,git,visualstudiocode,certificates
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,dotenv,node,git,visualstudiocode,certificates
 
 ### dotenv ###
 .env
@@ -167,7 +167,16 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/react,dotenv,node,git,visualstudiocode
+### certificates ###
+*.pem
+*.key
+*.crt
+*.cer
+*.priv
+*.srl
+
+# End of https://www.toptal.com/developers/gitignore/api/react,dotenv,node,git,visualstudiocode,certificates
 
 ### Build files
 build
+dev

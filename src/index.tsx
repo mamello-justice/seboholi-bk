@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Grommet } from 'grommet'
 
-import App from './views/App'
-
+import App from './app'
 import reportWebVitals from './reportWebVitals'
-import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Grommet theme={{}}>
+      <App />
+    </Grommet>
   </React.StrictMode>,
   document.getElementById('root')
 )

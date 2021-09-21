@@ -1,0 +1,4 @@
+{
+  "name": "@seboholi/utils",
+  "main": "./src/index.tsx"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "@seboholi/theme",
+  "main": "./src/index.tsx"
+}

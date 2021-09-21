@@ -1,0 +1,4 @@
+{
+  "name": "@seboholi/api",
+  "main": "./src/index.tsx"
+}
